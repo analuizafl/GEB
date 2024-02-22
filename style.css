@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3fff2;
+}
+
+h1 {
+    margin-top: 0;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(32, 207, 29, 0.4);
+    text-align: center;
+    color: #05990c;
+    font-family: 'Oleo Script', system-ui;
+
+}
+
+.container {
+    /*background-color: blue;*/
+    width: 94%;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    /*Ultilizando o flexbox pra linhar as DIVS lado a lado*/
+    justify-content: space-between;
+    /*DISTRIBUIR OS ESPAÇOS ENTRE AS DIVS*/
+    align-items: center;
+    /*Centralizar verticalmente*/
+}
+
+.Paragrafo {
+    width: 16%;
+    height: 389px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(32, 207, 29, 0.4);
+    display: inline-block;
+    /*Alinhando os elementos em linha e em block*/
+    padding: 20px;
+    /*Preenchimento*/
+    border-radius: 8px;
+    font-size: 20px;
+    margin-left: 17%;
+    margin-top: 3%;
+}
+
+h2 {
+    font-weight: 400;
+    font-family: 'Oleo Script', system-ui;
+    color: green;
+    text-align: center;
+}
+
+.calculando {
+    background-color: #ffff;
+    padding: 43px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(32, 207, 29, 0.4);
+    width: 16%;
+    height: 490px;
+    margin-top: 5px;
+    margin-right: 17%;
+    margin-top: 6%;
+}
+
+label,
+input,
+select,
+button {
+    margin-bottom: 15px;
+    display: block;
+    /*Colocando em blocos*/
+}
+
+button {
+    background-color: #21b426;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 13px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+}
+
+/*Quando o mouse passar em cima do botão*/
+button:hover {
+    background-color: #046009;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.calculando label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.calculando input,
+.calculando select {
+    padding: 10px;
+    font-size: 16;
+    border: 1px solid rgb(16, 126, 16);
+    border-radius: 5px;
+}
